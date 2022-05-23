@@ -20,6 +20,7 @@ class SortByName implements Comparator<Employee>
 public class CollectionDemo {
 
 	public static void main(String[] args) {
+		System.out.println("**********New updates ***********");
 		TreeSet<Employee> tsemp=new TreeSet<Employee>();
 		tsemp.add(new Employee(101, "Shakib", "Intern", 22));
 		tsemp.add(new Employee(102, "Arun", "Intern", 22));
